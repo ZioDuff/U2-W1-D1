@@ -340,6 +340,11 @@ footer a {
 }
 
 @media print {
-  main {
+  header,
+  iframe,
+  section,
+  aside,
+  footer {
+    display: none;
   }
 }

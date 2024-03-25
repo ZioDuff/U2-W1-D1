@@ -116,6 +116,19 @@ iframe {
   border-radius: 20px;
 }
 
+#html-badge {
+  border: 4px solid #9e1f6d;
+  display: inline-block;
+}
+
+#html-badge div {
+  border: 4px solid #039ec4;
+  padding: 5px;
+}
+#html-badge div img {
+  vertical-align: middle;
+}
+
 /* TABELLE */
 table {
   margin-bottom: 2em;
@@ -209,13 +222,26 @@ footer a {
     font-size: 4.3rem;
   }
 
+  #html-badge {
+    border: 4px solid #9e1f6d;
+    display: inline-block;
+  }
+
+  #html-badge div {
+    border: 4px solid #039ec4;
+    padding: 5px;
+  }
+  #html-badge div img {
+    vertical-align: middle;
+  }
+
   main article h2 {
     font-weight: bold;
     font-size: 1.2em;
   }
 
   main table {
-    width: 25em;
+    width: 60%;
     margin-inline: auto;
     margin-block: 5em;
   }

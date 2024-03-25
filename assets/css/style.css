@@ -269,6 +269,7 @@ footer a {
 
   header div {
     display: inline-block;
+    width: 80%;
   }
 
   header div img {
@@ -285,7 +286,6 @@ footer a {
   header nav {
     display: inline-block;
     vertical-align: middle;
-    margin-left: 33em;
   }
 
   header nav li {
